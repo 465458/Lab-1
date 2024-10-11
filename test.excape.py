@@ -3,7 +3,7 @@ BLUE = '\u001b[44m'
 WHITE = '\u001b[47m'
 END = '\u001b[0m'
 age = 2
-print(RED + '*'*10 + END)
+print(RED + ' '*10 + END)
 print(f"Ваш возраст {age**2}")
 
 """for i in range(6):
